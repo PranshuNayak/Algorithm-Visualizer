@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Algorithm Visualizer
+The project is used for realtime simulation of data structures and algorithms. Currently the project only supports visual learning of sorting algorithms which inlcudes (Merge Sort , Insertion Sort, Selection Sort , Bubble Sort)
+I'm working on including more such awesome visualizations ❤️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tech Stack
+1. React JS (Javascript)
+2. React Router Dom 
+3. React Styled Components
+4. Bootstrap
+5. Context API
 
-## Available Scripts
+# App User Interface
 
-In the project directory, you can run:
+# Home
+![home1](https://user-images.githubusercontent.com/86283785/174497208-a8241bfa-e72c-4d8c-886d-4157a229b5a9.jpg)
+![home2](https://user-images.githubusercontent.com/86283785/174497223-37476caf-f4c6-4a5c-8257-c8403d515b41.jpg)
+![home3](https://user-images.githubusercontent.com/86283785/174497227-08a62e76-716a-463f-87b2-63535e44d211.jpg)
 
-### `npm start`
+# Algorithm Page
+![algo1](https://user-images.githubusercontent.com/86283785/174497239-8c5f2a9b-3d63-4212-889c-b406cf67bec8.jpg)
+![algo2](https://user-images.githubusercontent.com/86283785/174497241-a404f95a-94a5-4715-9fce-18d8b5cfda80.jpg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Sorting Visulization (Bubble Sort .. Clone the repo to see other visualization)
+![algo3](https://user-images.githubusercontent.com/86283785/174497247-efc5b174-0a02-4d8e-bedd-4f8e3b275127.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
