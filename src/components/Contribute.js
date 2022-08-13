@@ -6,7 +6,7 @@ import IconWithSubtitle from "../components/IconWithSubtitle";
 
 function Contribute() {
   const items = [
-    { text: "developer", icon: `${github}` },
+    { text: "developer", icon: `${github}`,href:"https://github.com/PranshuNayak/Algorithm-Visualizer/tree/master" },
     { text: "donate", icon: `${heart}` },
     { text: "management", icon: `${management}` },
   ];

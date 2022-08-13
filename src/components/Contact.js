@@ -1,14 +1,14 @@
 import React from "react";
 import phone from '../images/bxs_phone.svg'
-import email from '../images/entypo_email.svg'
-import website from '../images/dashicons_email.svg'
+import website from '../images/entypo_email.svg'
+import email from '../images/dashicons_email.svg'
 import IconWithSubtitle from "../components/IconWithSubtitle";
 
 function Contact() {
   const items = [
     { text: "+91 - 9575900594", icon: `${phone}` },
     { text: "pranshunayak566@gmail.com", icon: `${email}` },
-    { text: "http://portfolio-pranshunayak.herokuapp.com/", icon: `${website}` },
+    { text: "http://portfolio-pranshunayak.herokuapp.com/", icon: `${website}`, href: "http://portfolio-pranshunayak.herokuapp.com/" },
   ];
   const style = {
     backgroundColor: "#DDA7A7",
