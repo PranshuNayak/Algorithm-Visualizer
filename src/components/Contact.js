@@ -1,14 +1,14 @@
 import React from "react";
-import github from "../images/Vector.svg";
-import management from "../images/simple-icons_googletagmanager.svg";
-import heart from "../images/ant-design_heart-filled.svg";
+import phone from '../images/bxs_phone.svg'
+import email from '../images/entypo_email.svg'
+import website from '../images/dashicons_email.svg'
 import IconWithSubtitle from "../components/IconWithSubtitle";
 
-function Contribute() {
+function Contact() {
   const items = [
-    { text: "developer", icon: `${github}` },
-    { text: "donate", icon: `${heart}` },
-    { text: "management", icon: `${management}` },
+    { text: "+91 - 9575900594", icon: `${phone}` },
+    { text: "pranshunayak566@gmail.com", icon: `${email}` },
+    { text: "http://portfolio-pranshunayak.herokuapp.com/", icon: `${website}` },
   ];
   const style = {
     backgroundColor: "#DDA7A7",
@@ -16,15 +16,15 @@ function Contribute() {
     padding: "10px",
   };
   return (
-    <div className="col-12 vh-50 my-5 " id="contribute">
+    <div className="col-12 my-5 " id="contact">
       <div className="row justify-content-center align-items-center">
         <div className="col-7 text-center h3">
-            Contribute
+            Contact
         </div>
         <p className="col-7 text-center">
-            ALGOs is in it's initial stage of development , we rely on community efforts to
-            drive our projects . There are various ways you may contribute. Every contribution
-            is valuable for our project. We accept contribution in these ways.
+            For any assistance contact us at these endpoints. Queries are usually resolved
+            within 7 working days but due to heavy occupany it may be delayed . We request your
+            patience for the same. Trying our best ❤️❤️
         </p>
         <div className="col-7">
           <div className="row justify-content-center align-items-center">
@@ -42,4 +42,4 @@ function Contribute() {
   );
 }
 
-export default Contribute;
+export default Contact;

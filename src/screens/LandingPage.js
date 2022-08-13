@@ -3,6 +3,8 @@ import Discover from '../components/Discover'
 import Algorithms from '../components/Algorithms'
 import Contribute from '../components/Contribute'
 import Home from '../components/Home'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 function LandingPage() {
   return (
@@ -11,6 +13,8 @@ function LandingPage() {
         <Algorithms/>
         <Discover/>
         <Contribute/>
+        <Contact/>
+        <Footer/>
      </div>
   )
 }

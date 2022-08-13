@@ -1,13 +1,13 @@
 import React from 'react'
 
-function IconWithSubtitle({icon,text}) {
+function IconWithSubtitle({item}) {
   return (
     <div className="row">
         <div className="col-12 text-center">
-            <img src={icon} width={50} height={50} alt="logo" />
+            <img src={item.icon} width={50} height={50} alt="logo" />
         </div>
         <div className="col-12 text-center">
-            {text}
+            {item.text}
         </div>
     </div>
   )

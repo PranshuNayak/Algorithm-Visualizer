@@ -1,6 +1,6 @@
 import React from "react";
 import book from "../images/bytesize_book.svg";
-import Button from "./Button";
+import Navigator from "./Navigator";
 function Discover() {
   const style = {
     height:"400px",
@@ -10,7 +10,7 @@ function Discover() {
     backgroundRepeat: "no-repeat",
   };
   return (
-    <div className="col-12 d-flex flex-column flex-grow vh-100" id="discover">
+    <div className="col-12 d-flex flex-column flex-grow vh-50" id="discover">
       <div className="row justify-content-center">
         <div className="col-7 h3 text-dark text-center text-capitalize">
           Resources
@@ -27,27 +27,27 @@ function Discover() {
         >
           <div className="row justify-content-center">
             <div className="col-6 text-center my-3">
-              <Button text="Graph" />
+              <Navigator text="Graph" href="https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/"/>
             </div>
             <div className="col-6 text-center my-3">
-              <Button text="Binary tree" />
+              <Navigator text="Binary tree" href="https://www.geeksforgeeks.org/binary-tree-data-structure/"/>
             </div>
             <div className="col-6 text-center my-3">
-              <Button text="Trie" />
+              <Navigator text="Trie" href="https://www.geeksforgeeks.org/tag/trie/" />
             </div>
             <div className="col-6 text-center my-3">
-              <Button text="Heaps" />
+              <Navigator text="Heaps" href="https://www.geeksforgeeks.org/heap-data-structure/" />
             </div>
             <div className="col-6 text-center my-3">
-              <Button text="Stack" />
+              <Navigator text="Stack" href="https://www.geeksforgeeks.org/stack-data-structure/" />
             </div>
             <div className="col-6 text-center my-3">
-              <Button text="Tree" />
+              <Navigator text="Queue" href="https://www.geeksforgeeks.org/queue-data-structure/" />
             </div>
           </div>
         </div>
       </div>
-      
+
     </div>
   );
 }

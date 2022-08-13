@@ -12,15 +12,16 @@ function Navbar() {
               <img width={50} height={50} src={charmNut} alt="app-logo" />
               <span>ALGOs</span>
               </Link>
-               
+
             </div>
-            
+
             <div className="col d-flex justify-content-center align-items-center">
                 <ul className=" list-group list-group-horizontal w-50 justify-content-between">
                     <li className="list-group"><ScrollLink spy={true} smooth={true} offset={0} duration={500} to="home" className='text-dark'>Home</ScrollLink></li>
                     <li className="list-group"><ScrollLink spy={true} smooth={true} offset={0} duration={500} to="algorithms" className='text-dark'>Algorithms</ScrollLink></li>
                     <li className="list-group"><ScrollLink spy={true} smooth={true} offset={-20} duration={500} to="discover" className='text-dark'>Discover</ScrollLink></li>
                     <li className="list-group"><ScrollLink spy={true} smooth={true} offset={0} duration={500} to="contribute" className='text-dark'>Contribute</ScrollLink></li>
+                    <li className="list-group"><ScrollLink spy={true} smooth={true} offset={0} duration={500} to="contact" className='text-dark'>Contact</ScrollLink></li>
                 </ul>
             </div>
             <div className="col-1">

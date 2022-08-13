@@ -1,6 +1,3 @@
-import styled from "styled-components";
-import CustomNavigation from "./components/CustomNavigation";
-import AlgorithmContent from "./components/AlgorithmContent";
 import MergeSort from "./screens/MergeSort";
 import SelectionSort from "./screens/SelectionSort";
 import InsertionSort from "./screens/InsertionSort";
